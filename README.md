@@ -21,26 +21,26 @@ int main() {
 }
 
 Expected output: 
-A to C
-A to B
-C to B
-A to C
-B to A
-B to C
-A to C
-Total movements required = 7
+A to C <br />
+A to B <br />
+C to B <br />
+A to C <br />
+B to A <br />
+B to C <br />
+A to C <br />
+Total movements required = 7<br />
 
 Q4. Print n times the every third element of the fibonacci series. (you can use iteration or recursion with memoization)
 
 /*
-Expected output:
-n = 3 : 2,8,44
-Explanation: fib series is 1,1,2,3,5,8,13,21,44…. 3rd in this series is 2, 6th is 8 and 9th is 44. 
+Expected output: <br />
+n = 3 : 2,8,44 <br />
+Explanation: fib series is 1,1,2,3,5,8,13,21,44…. 3rd in this series is 2, 6th is 8 and 9th is 44. <br />
 
-*/
-void fib(int n) {
-     // your code
-}
+*/ <br />
+void fib(int n) { <br />
+     // your code <br />
+} <br />
 
 Q5. King has 1000 bottles of wine to be consumed in a party after 7 days. Palace guards found one of the bottles was poisoned by a spy. King wants rest 999 bottles in the party and for that the poisonous bottle has to be identified and discarded. King has given 10 prisoners whom you can test. You have to find a strategy to identify the poisonous bottles using these 10 prisoners. Below are a few key points to design a strategy. 
 
