@@ -15,6 +15,7 @@ int main(){
     return 0; 
 }
 
+//function to calculate the movement of disks
 void hanoi(int num, char from, char mid, char to){
     if (num == 1){
         count += 1;
@@ -25,5 +26,5 @@ void hanoi(int num, char from, char mid, char to){
     hanoi(num - 1, from, to, mid);
     count += 1;
     printf("%c to %c\n", from, to);
-    hanoi(num - 1, from, mid, to);
+    hanoi(num - 1, to, mid, from);
 }
