@@ -12,13 +12,13 @@ Q2.   Given 2 numbers, find GCD (greatest common divisor). Implement using recur
 
 Q3. Implement the tower of hanoi function but instead of implementing the actual move function, just print the movement along with count of movements. 
 
-void tower_of_hanoi(int n, char from, char to, char aux){
-   //add your code here
+void tower_of_hanoi(int n, char from, char to, char aux){ <br />
+   //add your code here <br />
 
-}
-int main() {
-   tower_of_hanoi(3,'A','C','B');
-}
+} <br />
+int main() { <br />
+   tower_of_hanoi(3,'A','C','B'); <br />
+} <br />
 
 Expected output: 
 A to C <br />
