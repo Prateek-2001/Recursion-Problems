@@ -1,0 +1,8 @@
+ We shall convert the bottle numbers into Binary 
+
+ Bottle 1 =  000000001
+ Bottle 1000 = 1111101000
+
+ The prisoners 1 to 10 will drink from bottles with the bit in the same number position as they are;
+ Prisoner 1 will drink from all bottles whose least significant bit is 1 and so forth will every other prisoner.
+This will help in deducing which bottle has the poison depending on which prisoner were to die. 
